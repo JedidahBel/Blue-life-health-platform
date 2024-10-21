@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #EBEBEB;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a:hover{
+   color: #3788BD;
+   border-bottom: 3px solid #3788BD;
+   padding-bottom: 5px;
+}
+
+#health{
+    color: #3788BD;
+   border-bottom: 3px solid #3788BD;
+   padding-bottom: 5px;
+}
+
+/* #logo-icon{
+    /* margin-left: -5%; */
+
+
+.navigations{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 40px;
+    font-size: 1.4rem;
+    font-weight: 310;
+}
+
+/* .btns{
+    align-items: center;
+    
+} */
+
+#sub-btn{
+    width: 120px;
+    height: 40px;
+    background-color: #3788BD;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#search-btn{
+    border: none;
+    transform: translateY(5px);
+    width: 40px;
+    height: 40px;
+    background: transparent;
+}
+
+.material-symbols-outlined{
+    width: 40px;
+    height: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease, border 0.3s ease;
+}
+
+select{
+    border: none;
+    background: transparent;
+}
+/* styling for the header ends here */
+
+
+/* styling for the footer begins here */
+footer{
+    background-color: #3788BD;
+    height: 800px;
+    color: #fff;
+}
+
+.white-logo{
+    transform: translateY(70px);
+    /* margin-left: 650px; */
+    text-align: center;
+    line-height: 35px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid; */
+    transform: translateY(150px);
+}
+
+#info{
+    /* border: 1px solid; */
+    /* line-height: 50px; */
+    /* transform: translateY(150px); */
+    /* width: 400px; */
+    transform: translateY(-32px);
+}
+
+#info input{
+    width: 320px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+/* #info input:required{
+    border: 2px solid red;
+} */
+
+#info button{
+    width: 120px;
+    height: 40px;
+    background-color: #3788BD;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transform: translateX(-130px);
+}
+
+#info-text{
+    line-height: 30px;
+}
+
+#info-text p{
+    font-size: 15px;
+}
+
+#info-inp{
+    transform: translateY(20px);
+    line-height: 32px;
+}
+
+#info-inp p{
+    font-size: 12px;
+}
+
+#company{
+    line-height: 50px;
+    transform: translateX(-23px);
+}
+
+#support{
+    line-height: 50px;
+    transform: translateY(-20px);
+}
+
+#p-policy {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+#p-policy a{
+    text-decoration: underline;
+    color: white;
+}
+
+#info-inp p a{
+    text-decoration: underline;
+    color: white;
+}
+
+#follow{
+    transform: translateY(-102px);
+    /* display: flex; */
+}
+#f-images img{ 
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #3F99D5;
+    gap: 45px;
+    transform: translateY(16px);
+}
+
+#f-images{
+    /* justify-content: space-around; */
+    gap: 64px;
+}
+
+#copyR{
+    transform: translateY(300px);
+    margin-left: 600px;
+    letter-spacing: 1px;
+}
+
+/* section styling begins here */
+#main-sect{
+    height: 3000px;
+    
+}
+#img-one{
+    /* border: 1px solid black; */
+    height: 650px;
+    background-image: url(./images/wellness-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-one-txt{
+    /* border: 2px solid; */
+    height: 310px;
+    width: 70%;
+    margin-left: 300px;
+    transform: translateY(204px);
+    backdrop-filter: blur(15px);
+    background: rgba(242, 233, 204, 0.25);
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#img-one-txt h2{
+    /* border: 2px solid; */
+    font-size: 40px;
+   
+}
+#img-one-txt p{
+    font-size: 35px;
+    width: 70%;
+    /* border: 2px solid; */
+    text-align: center;
+    padding-left: 35px;
+    margin-left: 150px;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+.container{
+    border: 2px solid;
+    width: 98%;
+    /* align-self: center; */
+    /* justify-self: center; */
+    justify-content: space-around;
+    align-content: center;
+    align-items: ;
+}
+
+#sec-navigation {
+    border: 2px solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 21px;
+    height: 80px;
+    width: 95%;
+    background-color: #fff;
+    border-radius: 15px;
+    /* margin-left: 43px; */
+    /* margin-bottom: 100px; */
+}
